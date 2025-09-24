@@ -81,3 +81,6 @@ func reset_dir():
 	Input.action_release(down_input)
 	Input.action_release(left_input)
 	Input.action_release(right_input)
+
+func exit_tree():
+	reset_dir()
